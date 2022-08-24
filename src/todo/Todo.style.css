@@ -1,0 +1,11 @@
+@keyframes animation {
+  from {
+    transform: translateX(-10px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.animation {
+  animation: animation linear 0.3s;
+}
